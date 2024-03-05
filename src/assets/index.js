@@ -1,11 +1,14 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import python from "./python.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import datascience from "./datascience.png";
+import softwaredeveloper from "./softwaredeveloper.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  datascience,
+  softwaredeveloper,
 };

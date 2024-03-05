@@ -4,7 +4,7 @@ import { navLinks } from "../constrants/constrants";
 import { logo, menu, close } from "../assets";
 import LOGO from "../assets/LOGO.png";
 import { Link } from "react-router-dom";
-import LogoVideo from "./logovideo/LogoVideo";
+// import LogoVideo from "./logovideo/LogoVideo";
 import { getRandomProfession } from "../utils/profession";
 
 const Navbar = () => {
