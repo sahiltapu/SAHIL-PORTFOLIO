@@ -233,10 +233,9 @@
   }
 }
 .swing-in-top-fwd {
-  -webkit-animation: swing-in-top-fwd 3s
-    cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s both;
-  animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s
-    both;
+  -webkit-animation: swing-in-top-fwd 3s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    3s both;
+  animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 3s both;
 }
 @-webkit-keyframes swing-in-top-fwd {
   0% {
@@ -354,3 +353,186 @@
     transform: translate(0);
   }
 }
+.oveview-image:hover {
+  transition: all 500ms ease-in-out;
+  transform: scale(1.2);
+}
+.oveview-card:hover {
+  transition: all 500ms ease-in-out;
+  transform: scale(1.1);
+}
+.sahil-image {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  right: 15%;
+  top: -30%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 20%;
+}
+.sahil-image-div {
+  background: #915eff;
+  position: absolute;
+  right: 10%;
+  top: -20%;
+}
+
+.fancy-border-radius {
+  border-radius: 45% 55% 47% 53% / 80% 35% 69% 30%;
+
+  /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
+  width: 400px;
+  height: 400px;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389);
+}
+.rotate-center {
+  -webkit-animation: rotate-center 15s ease-in-out infinite both;
+  animation: rotate-center 15s ease-in-out infinite both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.bounce-top {
+  -webkit-animation: bounce-top 20s infinite alternate both;
+  animation: bounce-top 20s infinite alternate both;
+}
+
+@-webkit-keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+@keyframes bounce-top {
+  0% {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  65% {
+    -webkit-transform: translateY(-12px);
+    transform: translateY(-12px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  82% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  93% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Add your styling here, for example, hide the element */
+  .sahil-image-div,
+  .sahil-image {
+    display: none;
+  }
+  .about-paragraph-div{
+    width: 100%;
+    .about-paragraph{
+      width: auto;
+    }
+  }
+}
+

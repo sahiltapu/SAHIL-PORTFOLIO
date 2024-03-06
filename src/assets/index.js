@@ -9,6 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import datascience from "./datascience.png";
 import softwaredeveloper from "./softwaredeveloper.png";
+import sahilmishra from "./sahilmishra.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -65,4 +66,5 @@ export {
   python,
   datascience,
   softwaredeveloper,
+  sahilmishra,
 };
