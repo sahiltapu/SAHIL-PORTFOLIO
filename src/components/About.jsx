@@ -15,7 +15,7 @@ const ServiceCard = ({ index, title, icon, alt }) => (
     <CardContainer className="inter-var tracking-in-expand">
       <CardBody
         // variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className="bg-pink-950 relative flex flex-row-reverse justify-evenly gap-5 items-center dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.5] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-5 oveview-card"
+        className="bg-[#1D1836] relative flex flex-row-reverse justify-evenly gap-5 items-center dark:hover:shadow-2xl dark:hover:shadow-emerald-300/[0.5] dark:bg-[#1D1836] dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-5 oveview-card"
       >
         <CardItem
           translateZ="50"
