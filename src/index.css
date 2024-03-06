@@ -523,16 +523,14 @@
 }
 
 @media screen and (max-width: 1200px) {
-  /* Add your styling here, for example, hide the element */
   .sahil-image-div,
   .sahil-image {
     display: none;
   }
-  .about-paragraph-div{
+  .about-paragraph-div {
     width: 100%;
-    .about-paragraph{
-      width: auto;
-    }
+  }
+  .about-paragraph {
+    width: auto;
   }
 }
-
