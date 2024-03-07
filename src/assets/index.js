@@ -24,6 +24,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ml from "./tech/ml.png";
+import pythonlogo from "./tech/pythonlogo.png";
+import c from "./tech/c.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -68,5 +71,8 @@ export {
   datascience,
   softwaredeveloper,
   sahilmishra,
-  jindalsteel
+  jindalsteel,
+  ml,
+  c,
+  pythonlogo,
 };
