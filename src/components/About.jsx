@@ -60,7 +60,7 @@ const About = () => {
             together to bring your vision to fruition!
           </p>
         </div>
-        <div className="sahil-image-div fancy-border-radius rotate-center" />
+        <div className="sahil-image-div fancy-border-radius" />
         <img
             src={sahilmishra}
             title="Sahil Mishra"
