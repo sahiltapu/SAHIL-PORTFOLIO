@@ -38,7 +38,22 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import autoelites from "./project/autoelites.png";
+import chatapp from "./project/chatapp.png";
+import foodibytes from "./project/foodibytes.png";
+import portfolio from "./project/portfolio.png";
+import leukocyte from "./project/leukocyte.png";
+import animerecom from "./project/animerecom.png";
+
+
+
 export {
+  autoelites,
+  chatapp,
+  foodibytes,
+  portfolio,
+  leukocyte,
+  animerecom,
   logo,
   backend,
   creator,
