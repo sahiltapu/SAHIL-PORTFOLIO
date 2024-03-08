@@ -2,15 +2,17 @@ import React, { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { navLinks } from "../constrants/constrants";
 import { logo, menu, close } from "../assets";
-import LOGO from "../assets/LOGO.png";
-import { Link } from "react-router-dom";
-// import LogoVideo from "./logovideo/LogoVideo";
+// import LOGO from "../assets/LOGO.png";
+import LOGO1 from "../assets/LOGO1.gif";
 import { getRandomProfession } from "../utils/profession";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const [currentProfession , setCurrentProfession] = useState(getRandomProfession())
+  const [currentProfession, setCurrentProfession] = useState(
+    getRandomProfession()
+  );
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentProfession(getRandomProfession());
@@ -19,25 +21,34 @@ const Navbar = () => {
   }, []);
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20  bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-4 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
           to="/"
-          className="flex item-center gap-2"
+          className="flex item-center gap-1"
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
           }}
         >
-          <img src={LOGO} alt="logo" className="w-9 h-9 object-contain bg-primary" />
+          <img
+            src={LOGO1}
+            alt="logo"
+            className="w-[190px] h-[60px] object-cover bg-primary m-0 p-0 logo"
+          />
           {/* <LogoVideo className="w-9 h-9 object-contain"  /> */}
-          <p className="text-white text-[18] font-bold curor-pointer flex tracking-in-expand" style={{alignItems:"center"}}>
+          <p
+            className="text-white text-[18] font-bold curor-pointer flex tracking-in-expand"
+            style={{ alignItems: "center" }}
+          >
             SAHIL MISHRA &nbsp;
-            <span className="sm:block hidden tracking-in-expand">| &nbsp;{currentProfession}</span>
+            <span className="sm:block hidden tracking-in-expand">
+              | &nbsp;{currentProfession}
+            </span>
           </p>
         </Link>
-        <ul className="list-non hidden sm:flex flex-row gap-10 tracking-in-expand">
+        <ul className="list-non hidden lg:flex flex-row gap-6 tracking-in-expand">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -50,7 +61,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="lg:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
