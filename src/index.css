@@ -113,7 +113,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* canvas- styles */
+/* **********************canvas- styles ****************************** */
 .canvas-loader {
   font-size: 10px;
   width: 1em;
@@ -201,6 +201,15 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+
+
+
+
+
+
+
+/* ******************************Animista Animations******************************************** */
 
 .tracking-in-expand {
   -webkit-animation: tracking-in-expand 3s cubic-bezier(0.215, 0.61, 0.355, 1)
@@ -353,40 +362,6 @@
     transform: translate(0);
   }
 }
-.oveview-image:hover {
-  transition: all 500ms ease-in-out;
-  transform: scale(1.2);
-}
-.oveview-card:hover {
-  transition: all 500ms ease-in-out;
-  transform: scale(1.1);
-}
-.sahil-image {
-  position: absolute;
-  width: 300px;
-  height: 400px;
-  right: 15%;
-  top: -30%;
-  border-bottom-left-radius: 10%;
-  border-bottom-right-radius: 20%;
-}
-.sahil-image-div {
-  background: #915eff;
-  position: absolute;
-  right: 10%;
-  top: -20%;
-}
-
-.fancy-border-radius {
-  border-radius: 45% 55% 47% 53% / 80% 35% 69% 30%;
-
-  /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
-  width: 400px;
-  height: 400px;
-  background: #ad5389;
-  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
-  background: linear-gradient(to right, #3c1053, #ad5389);
-}
 .rotate-center {
   -webkit-animation: rotate-center 15s ease-in-out infinite both;
   animation: rotate-center 15s ease-in-out infinite both;
@@ -522,6 +497,61 @@
   }
 }
 
+
+
+
+
+
+
+
+
+/* ******************** Styles *************************** */
+
+.oveview-image:hover {
+  transition: all 500ms ease-in-out;
+  transform: scale(1.2);
+}
+.oveview-card:hover {
+  transition: all 500ms ease-in-out;
+  transform: scale(1.1);
+}
+.sahil-image {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  right: 15%;
+  top: -30%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 20%;
+}
+.sahil-image-div {
+  background: #915eff;
+  position: absolute;
+  right: 10%;
+  top: -20%;
+}
+
+
+
+
+
+
+
+/* ***************************Media Query******************************* */
+
+
+@media (max-width: 1024px) {
+  .logo{
+    width: 100px;
+    height: 50px;
+  }  
+}
+@media (1022px <= width <= 1200px){
+  .logo{
+    width: 100px;
+    height: 50px;
+  }  
+}
 @media screen and (max-width: 1200px) {
   .sahil-image-div,
   .sahil-image {
@@ -533,4 +563,21 @@
   .about-paragraph {
     width: auto;
   }
+}
+
+
+
+
+
+
+
+/* **************************** Fancy Border***************************** */
+
+.fancy-border-radius {
+  border-radius: 45% 55% 47% 53% / 80% 35% 69% 30%;
+  width: 400px;
+  height: 400px;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389);
 }
