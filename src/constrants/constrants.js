@@ -233,7 +233,7 @@ const projects = [
   {
     name: "FOODI-BYTES",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Indulge your taste buds with FoodiBytes, a mouthwatering burger ordering website crafted with React. Experience the perfect blend of flavor and technology as you customize and savor every bite, all with a click of a button.",
     tags: [
       {
         name: "react",
@@ -258,7 +258,7 @@ const projects = [
   {
     name: "PORTFOLIO",
     description:
-      "Crafted an impressive portfolio with seamless user experience using React, enhanced with the sleek design of Tailwind CSS, and powered by the dynamic components of AcenityUI, DaisyUI.",
+    "Crafted an impressive portfolio with seamless user experience using React, enhanced with the sleek design of Tailwind CSS, and powered by the dynamic components of AcenityUI, DaisyUI.",
     tags: [
       {
         name: "react",
