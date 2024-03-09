@@ -1,9 +1,11 @@
 import React from 'react'
-
+import SectionWraper from "../hoc";
+import { motion } from "framer-motion";
+import { styles } from "../styles";
 const Feedbacks = () => {
   return (
-    <div>Feedbacks</div>
+    <div></div>
   )
 }
 
-export default Feedbacks
+export default SectionWraper(Feedbacks, "");
