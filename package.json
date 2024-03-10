@@ -32,7 +32,8 @@
     "react-vertical-timeline-component": "^3.6.0",
     "tailwind-merge": "^2.2.1",
     "three": "^0.161.0",
-    "three-js-wrapper": "^1.2.0"
+    "three-js-wrapper": "^1.2.0",
+    "toast": "^0.5.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
