@@ -300,7 +300,7 @@ const projects = [
     ],
     image: leukocyte,
     source_code_link:
-      "https://github.com/sahiltapu/Leukocyte_image_classification",
+      "https://github.com/sahiltapu/Leukocyte-Image-Classification",
   },
   {
     name: "ANIME RECOMMENDATION SYSTEM",
