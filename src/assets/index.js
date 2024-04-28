@@ -44,10 +44,12 @@ import foodibytes from "./project/foodibytes.png";
 import portfolio from "./project/portfolio.png";
 import leukocyte from "./project/leukocyte.png";
 import animerecom from "./project/animerecom.png";
+import yomeet from "./project/yomeet.png";
 
 
 
 export {
+  yomeet,
   autoelites,
   chatapp,
   foodibytes,
