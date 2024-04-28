@@ -2,29 +2,16 @@ import {
   python,
   pythonlogo,
   jindalsteel,
-  mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   datascience,
   softwaredeveloper,
@@ -36,6 +23,7 @@ import {
   portfolio,
   leukocyte,
   animerecom,
+  yomeet,
 } from "../assets";
 
 export const navLinks = [
@@ -156,59 +144,63 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
-    name: "AUTOELITES",
+    name: "YO-MEET",
     description:
-      "Our group project is focused on creating a highly efficient and user-friendly website that streamlines the car buying and selling process, ensuring a seamless experience for all users.",
+      "A video conferencing platform built with Next.js for authentication Clerk Auth for seamless user authentication, and Shadcn UI for visually stunning design, offering smooth video streaming and advanced security features.",
     tags: [
       {
-        name: "HTML",
+        name: "NEXT-Js",
         color: "blue-text-gradient",
       },
       {
-        name: "Oracle-10g",
+        name: "shadcn UI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "clerks auth",
         color: "green-text-gradient",
       },
       {
-        name: "Tomcat-server",
+        name: "steam",
         color: "pink-text-gradient",
       },
     ],
-    image: autoelites,
-    source_code_link: "https://github.com/sahiltapu/AUTOELITES",
+    image: yomeet,
+    source_code_link: "https://github.com/sahiltapu/yo-meet",
   },
   {
     name: "CHAT APP",
     description:
-      "Developed a feature-rich chat application using MERN stack, incorporating Material UI, Daisy UI, Aceternity UI for frontend, Zustand for state management, and MongoDB for robust data storage.",
+    "Developed a feature-rich chat application using MERN stack, incorporating Material UI, Daisy UI, Aceternity UI for frontend, Zustand for state management, and MongoDB for robust data storage.",
     tags: [
       {
         name: "react",
@@ -229,6 +221,28 @@ const projects = [
     ],
     image: chatapp,
     source_code_link: "https://github.com/sahiltapu/Chat_App",
+  },
+  {
+    name: "LEUKOCYTE IMAGE CLASSIFICATION",
+    description:
+      "Built a Convolutional Neural Network model for accurate classification of Leukocyte types including Lymphocyte, Monocyte, Eosinophil and Neutrophil.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "machine-learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cnn",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: leukocyte,
+    source_code_link:
+      "https://github.com/sahiltapu/Leukocyte-Image-Classification",
   },
   {
     name: "FOODI-BYTES",
@@ -256,6 +270,27 @@ const projects = [
     source_code_link: "https://github.com/sahiltapu/Foodie-Bites",
   },
   {
+    name: "AUTOELITES",
+    description:
+      "Our group project is focused on creating a highly efficient and user-friendly website that streamlines the car buying and selling process, ensuring a seamless experience for all users.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Oracle-10g",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tomcat-server",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: autoelites,
+    source_code_link: "https://github.com/sahiltapu/AUTOELITES",
+  },
+  {
     name: "PORTFOLIO",
     description:
     "Crafted an impressive portfolio with seamless user experience using React, enhanced with the sleek design of Tailwind CSS, and powered by the dynamic components of AcenityUI, DaisyUI.",
@@ -280,28 +315,7 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/sahiltapu/SAHIL-PORTFOLIO",
   },
-  {
-    name: "LEUKOCYTE IMAGE CLASSIFICATION",
-    description:
-      "Built a Convolutional Neural Network model for accurate classification of Leukocyte types including Lymphocyte, Monocyte, Eosinophil and Neutrophil.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "machine-learning",
-        color: "green-text-gradient",
-      },
-      {
-        name: "cnn",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: leukocyte,
-    source_code_link:
-      "https://github.com/sahiltapu/Leukocyte-Image-Classification",
-  },
+  
   {
     name: "ANIME RECOMMENDATION SYSTEM",
     description:
@@ -329,4 +343,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
